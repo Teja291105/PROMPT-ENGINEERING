@@ -59,12 +59,13 @@ Step 7: Finalize and Export
 
 # Output
 **CHT-GPT**
-~~~
+
 Comprehensive Report on Generative AI
 1. Foundational Concepts of Generative AI
 Generative Artificial Intelligence (Generative AI) refers to a subset of AI models and systems designed to create new content, including text, images, audio, video, and other data modalities, that resemble the distribution of the training data. Unlike discriminative models that focus on classifying or predicting outcomes, generative models learn to capture the underlying data distribution and generate novel, coherent, and contextually relevant outputs.
 
 Key Concepts:
+~~~
 Generative Models: These models learn to approximate the probability distribution 
 𝑃
 (
@@ -89,7 +90,7 @@ P(X) or conditional distributions
 𝑋
 )
 P(Y∣X), enabling the generation of new samples that mimic the real data.
-
+~~~
 Sample Generation: Once trained, these models can generate new samples by sampling from the learned distribution, enabling creative applications such as text generation, image synthesis, and style transfer.
 
 Latent Space Representation: Many generative models learn a compressed representation of data in a latent space, allowing manipulation of features and interpolation between samples.
@@ -178,7 +179,7 @@ Fine-Tuning and Adaptation: Larger models provide a robust foundation for fine-t
 
 Summary
 Generative AI represents a transformative domain of artificial intelligence focused on creating new content by learning data distributions. The Transformer architecture has become the cornerstone of modern generative models, enabling breakthroughs in natural language generation and beyond. Applications span a broad spectrum from text and image generation to healthcare and creative industries. The scaling of LLMs has unlocked unprecedented capabilities but also introduces challenges in computational demand, ethical considerations, and bias mitigation.
-~~~
+
 
 
 # Result
